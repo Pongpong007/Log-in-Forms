@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Test</title>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <button onclick="greetUser()">Click Me</button>
+
+  <script>
+   
+    function greetUser() {
+      let name = prompt("What's your name?");
+      alert("Hello, " + name + "!");
+
+      let score = prompt("Enter your GWA?");
+      alert("Your SCore, " + score + "!");
+    
+if (score >= 75) {
+  alert("You passed!");
+} else {
+  alert("Try again.");
+}
+    }
+  </script>
+</body>
+</html>
+
+<!--
+ <script>
+    alert("Hello, " + name + "!");
+    function greetUser() {
+      let name = prompt("What's your name?");
+      alert("Hello, " + name + "!");
+
+      let score = prompt("Enter your GWA?");
+      alert("Hello, " + score + "!");
+    
+if (score >= 75) {
+  alert("You passed!");
+} else {
+  alert("Try again.");
+}
+    }
+  </script>
+  -->
